@@ -176,7 +176,7 @@ Metadata fields for "Details" view
     // Field type, ex: 'text', 'email', 'tel', 'textarea'
     "type": string,
 
-    // Field width: 'full', 'half', or 'thrid'
+    // Field width: 'full', 'half', or 'third'
     "size": string,
 
     // Field label and placeholder texts
