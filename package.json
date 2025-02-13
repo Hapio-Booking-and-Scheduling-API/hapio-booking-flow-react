@@ -1,0 +1,66 @@
+{
+    "name": "hapio-booking-flow",
+    "version": "1.0.0",
+    "description": "A booking component for the Hapio API",
+    "main": "dist/index.umd.js",
+    "module": "dist/index.es.js",
+    "types": "dist/index.d.ts",
+    "style": "dist/hapio-booking-flow.css",
+    "sideEffects": [
+        "*.css"
+    ],
+    "files": [
+        "dist"
+    ],
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.es.js",
+            "require": "./dist/index.umd.js"
+        },
+        "./package.json": "./package.json"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "prepare": "npm run build",
+        "prepublishOnly": "npm run build",
+        "lint": "eslint .",
+        "preview": "vite preview"
+    },
+    "peerDependencies": {
+        "@fontsource/space-grotesk": "^5.1.1",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
+    },
+    "dependencies": {
+        "@date-io/date-fns": "^2.14.0",
+        "@emotion/react": "^11.13.5",
+        "@emotion/styled": "^11.13.5",
+        "@fontsource/space-grotesk": "^5.1.1",
+        "@mui/icons-material": "^6.1.8",
+        "@mui/material": "^6.1.8",
+        "@mui/x-date-pickers": "^7.22.3",
+        "axios": "^1.7.8",
+        "date-fns": "^2.30.0",
+        "dayjs": "^1.11.13",
+        "hapio-ui-state-management": "git+https://github.com/Hapio-Booking-and-Scheduling-API/hapio-state-manager-react.git",
+        "lodash": "^4.17.21",
+        "lodash.mergewith": "^4.6.2"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.15.0",
+        "@types/lodash.mergewith": "^4.6.9",
+        "@types/react": "^18.0.0",
+        "@types/react-dom": "^18.0.0",
+        "@vitejs/plugin-react": "^4.3.4",
+        "eslint": "^9.15.0",
+        "eslint-plugin-react-hooks": "^5.0.0",
+        "eslint-plugin-react-refresh": "^0.4.14",
+        "globals": "^15.12.0",
+        "typescript": "~5.6.2",
+        "typescript-eslint": "^8.15.0",
+        "vite": "^6.0.0",
+        "vite-plugin-css-injected-by-js": "^3.5.2"
+    }
+}

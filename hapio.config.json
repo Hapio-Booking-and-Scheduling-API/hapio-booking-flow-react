@@ -1,0 +1,85 @@
+{
+    "hapioApiToken": "",
+    "hapioBaseURL": "https://eu-central-1.hapio.net/v1",
+    "settings": {
+        "locale": "en-GB",
+        "storeExpireTime": 84000000,
+        "afterBookingExipreTime": 300000,
+        "metaDataFields": {
+            "name": {
+                "required": true,
+                "type": "text",
+                "size": "full",
+                "label": "Name",
+                "placeholder": "Name"
+            },
+            "email": {
+                "required": true,
+                "type": "email",
+                "size": "half",
+                "label": "Email",
+                "placeholder": "Email"
+            },
+            "phone": {
+                "required": true,
+                "type": "tel",
+                "size": "half",
+                "label": "Phone",
+                "placeholder": "Phone"
+            }
+        }
+    },
+    "theme": {
+        "palette": {
+            "primary": "#F6C800",
+            "secondary": "#B1BCFD",
+            "title": "#F5EAFF",
+            "data": "#B1BCFD",
+            "text": "#F5EAFF",
+            "input": "#F5EAFF",
+            "confirm": "#0F042E",
+            "dark": "#28213D",
+            "light": "#6B7280",
+            "disabled": "#374151",
+            "background": "#0F042E",
+            "background2": "#28213D",
+            "error": "#F6C800"
+        },
+        "fonts": {
+            "families": {
+                "primary": "'Space Grotesk', cursive",
+                "secondary": "'Helvetica Neue', sans"
+            },
+            "sizes": {
+                "h2": "1.5rem",
+                "h3": "1.25rem",
+                "h4": "1rem",
+                "h5": "0.875rem",
+                "h6": "0.875rem",
+                "body1": "1rem",
+                "body2": "0.875rem"
+            }
+        }
+    },
+    "content": {
+        "backButton": "Back",
+        "stepText": "Step",
+        "locationTitle": "Location",
+        "serviceTitle": "Service",
+        "resourceTitle": "Resource",
+        "dateTitle": "Date",
+        "timeSlotTitle": "Time",
+        "timeSlotErrorTextMissingData": "Please select a service, location, date, and resource.",
+        "timeSlotErrorTextNoResults": "No timeslots available for the selected date or resource.",
+        "metaDataFormTitle": "Your details",
+        "metaDataLocationLabel": "Location",
+        "metaDataServiceLabel": "Service",
+        "metaDataResourceLabel": "Resource",
+        "metaDataDateLabel": "Date",
+        "metaDataTimeLabel": " Time",
+        "metaDataFieldsLabel": "Your details",
+        "metaDataSubmitButton": "Confirm booking",
+        "completedTitle": "Booking Confirmed",
+        "completedMessage": "Thank you for your booking! A confirmation email with all the details has been sent to your inbox."
+    }
+}
