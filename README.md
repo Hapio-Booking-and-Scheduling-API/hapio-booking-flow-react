@@ -166,7 +166,7 @@ Life span of local storage after a booking is completed
 
 Metadata fields for "Details" view
 
-```json
+```jsonc
 {
   // Unique field key, will also be used as the key in the API request.
   "uniqueKey": {
