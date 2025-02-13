@@ -20,11 +20,11 @@ A component built for the Hapio API that can be installed as an npm package. Use
 Install the package with your favourite package manager
 
 ```sh
-npm install hapio-booking-flow-react
+npm install @hapio/hapio-booking-flow-react
 ```
 
 ```sh
-yarn add hapio-booking-flow-react
+yarn add @hapio/hapio-booking-flow-react
 ```
 
 ## Usage
@@ -34,7 +34,7 @@ Import the `Flow` component in your project and pass hapioApiToken and your cust
 ```tsx
 // Example usage in a React app
 import React from 'react';
-import { Flow } from 'hapio-booking-flow-react';
+import { Flow } from '@hapio/hapio-booking-flow-react';
 
 const userConfig = {
   "hapioApiToken": "HAPIO_API_TOKEN",
