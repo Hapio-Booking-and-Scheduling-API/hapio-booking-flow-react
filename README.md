@@ -142,7 +142,7 @@ Hapio Booking Flow comes with a default config for all settings, all of these se
 
 date-fns locale string List of available languages can be found [here](https://github.com/date-fns/date-fns/blob/9bb51691f201c3ec05ab832acbc5d478f2e5c47a/docs/i18nLocales.md)
 
-```json
+```jsonc
 "locale": string,
 ```
 
@@ -150,7 +150,7 @@ date-fns locale string List of available languages can be found [here](https://g
 
 Life span of local storage
 
-```json
+```jsonc
 "storeExpireTime": integer,
 ```
 
@@ -158,7 +158,7 @@ Life span of local storage
 
 Life span of local storage after a booking is completed
 
-```json
+```jsonc
 "afterBookingExpireTime": integer,
 ```
 
