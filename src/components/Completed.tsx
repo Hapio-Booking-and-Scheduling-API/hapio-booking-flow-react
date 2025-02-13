@@ -1,5 +1,5 @@
 import { Box, Typography } from '@mui/material';
-import { FullConfig } from 'hapio-ui-state-management';
+import { FullConfig } from '@hapio/hapio-ui-state-manager';
 
 interface CompletedProps {
     config: FullConfig;

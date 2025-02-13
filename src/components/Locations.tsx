@@ -1,7 +1,10 @@
 import React, { useEffect } from 'react';
 import { Button, CircularProgress, Box } from '@mui/material';
 import Grid from '@mui/material/Grid2';
-import { useHapioBookingStore, FullConfig } from 'hapio-ui-state-management';
+import {
+    useHapioBookingStore,
+    FullConfig,
+} from '@hapio/hapio-ui-state-manager';
 
 interface LocationsProps {
     config: FullConfig;

@@ -11,7 +11,7 @@ import {
     useHapioBookingStore,
     formatDate,
     FullConfig,
-} from 'hapio-ui-state-management';
+} from '@hapio/hapio-ui-state-manager';
 
 interface MetadataFormProps {
     config: FullConfig;

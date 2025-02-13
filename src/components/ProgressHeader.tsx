@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react';
 import { Box, LinearProgress, Typography } from '@mui/material';
-import { useHapioBookingStore, FullConfig } from 'hapio-ui-state-management';
+import {
+    useHapioBookingStore,
+    FullConfig,
+} from '@hapio/hapio-ui-state-manager';
 
 interface Step {
     name?: string;

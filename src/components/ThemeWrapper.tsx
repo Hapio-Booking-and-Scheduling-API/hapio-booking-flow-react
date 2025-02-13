@@ -1,5 +1,5 @@
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import { FullConfig } from 'hapio-ui-state-management';
+import { FullConfig } from '@hapio/hapio-ui-state-manager';
 import React from 'react';
 
 interface ThemeWrapperProps {

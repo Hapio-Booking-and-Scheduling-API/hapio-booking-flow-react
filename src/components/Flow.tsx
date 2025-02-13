@@ -9,7 +9,7 @@ import {
     FullConfig,
     UserConfig,
     localeMap,
-} from 'hapio-ui-state-management';
+} from '@hapio/hapio-ui-state-manager';
 import ComponentContainer from './ComponentContainer';
 import ProgressHeader from './ProgressHeader';
 import Calendar from './Calendar';

@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { DateCalendar } from '@mui/x-date-pickers/DateCalendar';
 import { isBefore, startOfDay, startOfMonth, parseISO } from 'date-fns';
-import { useHapioBookingStore } from 'hapio-ui-state-management';
+import { useHapioBookingStore } from '@hapio/hapio-ui-state-manager';
 
 interface StepProps {
     onSelect: () => void;

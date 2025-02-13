@@ -1,5 +1,5 @@
 import { Box, Typography, Link } from '@mui/material';
-import { FullConfig } from 'hapio-ui-state-management';
+import { FullConfig } from '@hapio/hapio-ui-state-manager';
 
 interface HapioBrandingProps {
     config: FullConfig;
