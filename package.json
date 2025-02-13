@@ -1,5 +1,5 @@
 {
-    "name": "hapio-booking-flow-react",
+    "name": "@hapio/hapio-booking-flow-react",
     "version": "1.0.0",
     "description": "A booking component for the Hapio API",
     "main": "dist/index.umd.js",
