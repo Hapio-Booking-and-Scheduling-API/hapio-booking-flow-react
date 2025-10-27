@@ -11,8 +11,8 @@ A component built for the Hapio API that can be installed as an npm package. Use
 
 ## Requirements
 
--   React 18
--   ReactDOM 18
+-   React 18 or 19
+-   ReactDOM 18 or 19
 -   Hapio State Manager
 
 ## Installation
