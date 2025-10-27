@@ -1,6 +1,6 @@
 {
     "name": "@hapio/hapio-booking-flow-react",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A booking component for the Hapio API",
     "main": "dist/index.umd.js",
     "module": "dist/index.es.js",
