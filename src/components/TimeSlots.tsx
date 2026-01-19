@@ -132,6 +132,7 @@ const TimeSlots: React.FC<TimeSlotsProps> = ({ config, onSelect }) => {
                                         hour: '2-digit',
                                         minute: '2-digit',
                                         hour12: false,
+                                        timeZone: config.settings.timezone,
                                     })}
                                 </Button>
                             </Grid>

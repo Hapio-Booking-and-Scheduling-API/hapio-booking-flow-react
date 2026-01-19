@@ -3,6 +3,7 @@
     "hapioBaseURL": "https://eu-central-1.hapio.net/v1",
     "settings": {
         "locale": "en-GB",
+        "timezone": "Europe/Stockholm",
         "storeExpireTime": 84000000,
         "afterBookingExipreTime": 300000,
         "metaDataFields": {

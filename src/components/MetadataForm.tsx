@@ -199,12 +199,14 @@ const MetadataForm: React.FC<MetadataFormProps> = ({ config }) => {
                               hour: '2-digit',
                               minute: '2-digit',
                               hour12: false,
+                              timeZone: config.settings.timezone,
                           })} - ${formatDate(
                               selectedTimeSlot.ends_at as string,
                               {
                                   hour: '2-digit',
                                   minute: '2-digit',
                                   hour12: false,
+                                  timeZone: config.settings.timezone,
                               }
                           )}`
                         : ''}
