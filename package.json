@@ -1,6 +1,6 @@
 {
     "name": "@hapio/hapio-booking-flow-react",
-    "version": "1.0.5",
+    "version": "1.1.0",
     "description": "A booking component for the Hapio API",
     "main": "dist/index.umd.js",
     "module": "dist/index.es.js",
@@ -38,7 +38,7 @@
         "@emotion/react": "^11.13.5",
         "@emotion/styled": "^11.13.5",
         "@fontsource/space-grotesk": "^5.1.1",
-        "@hapio/hapio-ui-state-manager": "^1.0.4",
+        "@hapio/hapio-ui-state-manager": "^1.1.0",
         "@mui/icons-material": "^6.1.8",
         "@mui/material": "^6.1.8",
         "@mui/x-date-pickers": "^7.22.3",
