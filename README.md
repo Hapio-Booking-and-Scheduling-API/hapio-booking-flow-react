@@ -15,7 +15,8 @@ A component built for the Hapio API that can be installed as an npm package. Use
 - ReactDOM 18 or 19
 - Hapio State Manager
 - Hapio API Token
-  **Token abilities**
+
+    **Token abilities**
     - location:view
     - resource:view
     - resource_service:view
