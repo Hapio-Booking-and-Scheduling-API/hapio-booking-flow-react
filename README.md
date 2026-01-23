@@ -4,16 +4,24 @@ A component built for the Hapio API that can be installed as an npm package. Use
 
 ## Features
 
--   **Easy Booking:** Streamlined booking process.
--   **Get started fast:** Works out of the box with just an Hapio Api Token, no other setup needed.
--   **Hapio API Integration:** Manage resources, schedules, and bookings with Hapio's lightning quick API.
--   **Customizable:** Override the default configuration with your own settings, texts and theme configurations.
+- **Easy Booking:** Streamlined booking process.
+- **Get started fast:** Works out of the box with just an Hapio Api Token, no other setup needed.
+- **Hapio API Integration:** Manage resources, schedules, and bookings with Hapio's lightning quick API.
+- **Customizable:** Override the default configuration with your own settings, texts and theme configurations.
 
 ## Requirements
 
--   React 18 or 19
--   ReactDOM 18 or 19
--   Hapio State Manager
+- React 18 or 19
+- ReactDOM 18 or 19
+- Hapio State Manager
+- Hapio API Token
+  **Token abilities**
+    - location:view
+    - resource:view
+    - resource_service:view
+    - service:view
+    - bookable_slot:view
+    - booking:create
 
 ## Installation
 
@@ -60,6 +68,7 @@ Hapio Booking Flow comes with a default config for all settings, all of these se
     "hapioBaseURL": "https://eu-central-1.hapio.net/v1",
     "settings": {
         "locale": "en-GB",
+        "timezone": "Europe/Stockholm",
         "storeExpireTime": 84000000,
         "afterBookingExipreTime": 300000,
         "metaDataFields": {
@@ -146,6 +155,16 @@ date-fns locale string List of available languages can be found [here](https://g
 "locale": string,
 ```
 
+**<u>timezone</u>**
+
+Forces the view to display timeslots from specified [IANA tz database name](https://data.iana.org/time-zones/tzdb-2025c/zone1970.tab)
+
+```jsonc
+"timezone": string,
+```
+
+> _If left empty, the users timezone will be used when displaying timeslots_
+
 **<u>storeExpireTime</u>**
 
 Life span of local storage
@@ -198,9 +217,10 @@ Metadata fields for "Details" view
 
 ## Resources
 
--   [Hapio Website](https://hapio.io/)
--   [Hapio Documentation](https://docs.hapio.io/)
--   [Guide: Get started with Hapio](https://hapio.io/uploads/2024/06/Getting-started-with-Hapio.pdf)
+- [Hapio Website](https://hapio.io/)
+- [Hapio Dashboard](https://hapio.app/)
+- [Hapio Documentation](https://docs.hapio.io/)
+- [Guide: Get started with Hapio](https://hapio.io/uploads/2024/06/Getting-started-with-Hapio.pdf)
 
 ## Contribution
 
